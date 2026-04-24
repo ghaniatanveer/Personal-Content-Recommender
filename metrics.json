@@ -1,0 +1,21 @@
+{
+  "train_size": 121,
+  "test_size": 29,
+  "methods": {
+    "content_tfidf": {
+      "precision_at_5": 0.4,
+      "recall_at_5": 0.125,
+      "avg_rating_top_10": 7.9
+    },
+    "svd": {
+      "precision_at_5": 0.4,
+      "recall_at_5": 0.125,
+      "avg_rating_top_10": 6.4
+    },
+    "sentence_transformer": {
+      "precision_at_5": 0.6,
+      "recall_at_5": 0.1875,
+      "avg_rating_top_10": 6.2
+    }
+  }
+}

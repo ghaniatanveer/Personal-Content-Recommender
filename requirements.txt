@@ -1,0 +1,14 @@
+# MyRecs — Personal Content Recommender
+# Collaborative filtering uses a NumPy SVD-style (biased MF) implementation by default so
+# installs work on current Python (e.g. 3.12+). Optional: pip install scikit-surprise on 3.10–3.11
+# if you want the Surprise library for experiments.
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+sentence-transformers>=2.2.0
+streamlit>=1.28.0
+torch>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+jupyter>=1.0.0
+ipykernel>=6.25.0
